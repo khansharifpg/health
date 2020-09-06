@@ -1,7 +1,7 @@
 @extends('layouts.dashboard_layout')
 
 @section('page-title')
-<h1 class="m-0 text-dark">Home</h1>
+<h1 class="m-0 text-dark">Hospital</h1>
 @endsection
 
 @section('page-content')
