@@ -42,3 +42,19 @@ Route::get('hospital', function () {
     return view ('hospital');
 });
 
+Route::get('auth/signup', function () {
+    return view('auth/signup');
+});
+
+Route::get('auth/signin', function () {
+    return view('auth/signin');
+});
+
+Route::get('auth/forgot_password', function () {
+    return view('auth/forgot_password');
+});
+
+Route::get('auth/recover_password', function () {
+    return view('auth/recover_password');
+});
+
